@@ -1,0 +1,15 @@
+{
+  "name": "node-learn",
+  "version": "0.1.0",
+  "author": "xianwei wu",
+  "description": "This is node demo for sutdy",
+  "repository": "https://github.com/xianweics/node-study.git",
+  "keywords": [
+    "node",
+    "front end",
+    "javascript",
+    "js",
+    "html"
+  ],
+  "homepage": "http://todaywu.com"
+}
