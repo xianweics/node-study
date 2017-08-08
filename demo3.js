@@ -1,4 +1,5 @@
 let fs=require("fs");
+/*
 let data='';
 let rs=fs.createReadStream('input.txt');
 rs.on('data',function (r) {
@@ -17,11 +18,14 @@ rw.write('this is a test1');
 rw.end();
 rw.on('finish',function () {
     console.log('write done');
-});
+});*/
 
-rw.on('error',function (err) {
-    console.log(err)
-});
+let rw1=fs.createWriteStream('input1.txt'),
+  rs1=fs.createReadStream('input.txt');
+rs1.pipe(rw1);
+
+
+
 
 
 
