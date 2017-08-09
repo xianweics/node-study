@@ -12,5 +12,8 @@
     "js",
     "html"
   ],
-  "homepage": "http://todaywu.com"
+  "homepage": "http://todaywu.com",
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
 }
