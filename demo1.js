@@ -1,8 +1,17 @@
 let http = require('http');
 
-http.createServer((req,res)=>{
-  res.writeHead(200);
-  res.end("萌叽叽");
-}).listen(110);
+http.createServer((req, res) => {
+    let result = '';
+    // req.on('data', function (err, str) {
+    //     if (err) {
+    //         console.log(err)
+    //     }
+    //     result += str;
+    // });
+    // req('end',function () {
+    //     console.info(result);
+    //     res.writeHead(200);
+    //     res.end("server start");
+    // })
 
-console.info("萌叽叽 开启");
+}).listen(110);
