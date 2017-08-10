@@ -1,8 +1,7 @@
 # node-study
 This is node demo for study
 ## Study milestone
-http://www.runoob.com/nodejs/node-js-get-post.html
-this is a test for github
+http://www.runoob.com/nodejs/nodejs-path-module.html
 
 
 
